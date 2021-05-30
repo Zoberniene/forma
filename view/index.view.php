@@ -27,19 +27,19 @@
                 <div class="form-group row">
                     <label class="col-2 col-form-label">El. pašto adresas:<span class="text-danger">*</span></label>
                     <div class="col-10">
-                        <input type="email" class="form-control" name="email">
+                        <input type="email" class="form-control" name="email" required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label class="col-2 col-form-label">Slaptažodis:<span class="text-danger">*</span></label>
                     <div class="col-10">
-                        <input type="password" class="form-control" name="password">
+                        <input type="password" class="form-control" name="password" required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label class="col-2 col-form-label">Pakartoti slaptažodį:<span class="text-danger">*</span></label>
                     <div class="col-10">
-                        <input type="password" class="form-control">
+                        <input type="password" class="form-control" required>
                     </div>
                 </div>
                 <div class="form-check ">
@@ -61,23 +61,23 @@
                 <div class="form-group row">
                     <label class="col-2 col-form-label">Vardas:<span class="text-danger">*</span></label>
                     <div class="col-10">
-                        <input type="text" class="form-control" name="firstName">
+                        <input type="text" class="form-control" name="firstName" required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label class="col-2 col-form-label">Pavardė:<span class="text-danger">*</span></label>
                     <div class="col-10">
-                        <input type="text" class="form-control" name="lastName">
+                        <input type="text" class="form-control" name="lastName" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <label class="col-2 col-form-label">Gatvė, namo(buto) nr.:<span class="text-danger">*</span></label>
                     <div class="form-row">
                         <div class="col-7">
-                            <input type="text" class="form-control" name="street">
+                            <input type="text" class="form-control" name="street" required>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" name="number">
+                            <input type="text" class="form-control" name="number" required>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                     <label class="col-2 col-form-label">Pašto kodas:<span class="text-danger">*</span></label>
                     <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control" name="postIndex">
+                            <input type="text" class="form-control" name="postIndex" required>
                         </div>
                         <div class="col">
                             <u><a href="url">Pašto kodo paieška</a></u>
@@ -98,14 +98,14 @@
                     <label class="col-2 col-form-label">Miestas:<span class="text-danger">*</span></label>
                     <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control" name="city">
+                            <input type="text" class="form-control" name="city" required>
                         </div>
                     </div>
                 </div>
                 <br>
                 <div class="form-group row">
                     <label class="col-2 col-form-label">Šalis:<span class="text-danger">*</span></label>
-                    <select class="custom-select col-10" name="country">
+                    <select class="custom-select col-10" name="country" required>
                         <option name="-">-</option>
                         <option name="Lithuania">Lietuva</option>
                         <option name="Latvia">Latvija</option>
@@ -118,7 +118,7 @@
                 <div class="form-group row">
                     <label class="col-2 col-form-label">Telefonas:<span class="text-danger">*</span></label>
                     <div class="col-10">
-                        <input type="text" class="form-control" name="phone">
+                        <input type="number" class="form-control" name="phone" required>
                     </div>
                 </div>
                 <div class="form-group row">
